@@ -1,0 +1,25 @@
+.column4{
+    height: 150px;
+    background-color:lightgray;
+    border-radius:10%;
+}
+.maintext{
+    text-align:center;
+    /*opacity:0.5;*/
+    padding-top:60px;
+}
+.line{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.box{
+    background-color:dodgerblue;
+    border-radius:5%;
+    /*padding-left: 10px;*/
+    width:145px;
+    text-align: center;
+    /*padding-left: 10px;*/
+}
+.size{
+    padding-top:50px;
+}
