@@ -15,10 +15,10 @@
 }
 .maintext{
     text-align:center;
-    /*opacity:0.5;*/
+    opacity:0.5;
     padding-top:60px;
-    color: white;
-  /*color:linear-gradient(90deg, white, skyblue);*/
+    color: gray;
+  color:linear-gradient(90deg, white, skyblue);
 }
 .line{
     padding-left: 10px;
@@ -27,14 +27,25 @@
 .box{
     background-image:linear-gradient(dodgerblue, skyblue);
     border-radius:5%;
-    /*padding-left: 10px;*/
+    padding-left: 10px;
     width:145px;
     text-align: center;
-    /*padding-left: 10px;*/
+    padding-left: 10px;
 }
 .size{
-    /*padding-top:40px;*/
+    padding-top:40px;
     height:150;
     text-align: center;
     padding:50px;
 }
+
+
+
+
+
+
+
+
+
+
+
