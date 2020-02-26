@@ -1,19 +1,31 @@
+
+
+
+
+.backcolor{
+    background-image:linear-gradient(#005aa7, #fffde4);
+    border-radius: 20px;
+}
+
+
 .column4{
-    height: 150px;
-    background-color:lightgray;
-    border-radius:10%;
+    background-image:linear-gradient(60deg, #eb5757, #000000);
+    border-radius:20px;
+    height:145px;
 }
 .maintext{
     text-align:center;
     /*opacity:0.5;*/
     padding-top:60px;
+    color: white;
+  /*color:linear-gradient(90deg, white, skyblue);*/
 }
 .line{
     padding-left: 10px;
     padding-bottom: 10px;
 }
 .box{
-    background-color:dodgerblue;
+    background-image:linear-gradient(dodgerblue, skyblue);
     border-radius:5%;
     /*padding-left: 10px;*/
     width:145px;
@@ -21,5 +33,8 @@
     /*padding-left: 10px;*/
 }
 .size{
-    padding-top:50px;
+    /*padding-top:40px;*/
+    height:150;
+    text-align: center;
+    padding:50px;
 }
