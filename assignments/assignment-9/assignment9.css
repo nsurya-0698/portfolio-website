@@ -16,6 +16,7 @@
 /*    padding:50px;*/
 /*}*/
 .box1{
+    padding-left:50px;
     background-image: linear-gradient(#005aa7, #fffde4);
     height:200px;
 }
@@ -23,19 +24,35 @@
     background-image: linear-gradient(white,skyblue);
     height:200px;
 }
-.box3{
-background-image: linear-gradient(green, skyblue);
-height:200px;
+/*.box3{*/
+/*background-image: linear-gradient(green, skyblue);*/
+/*height:200px;*/
+/*}*/
+/*.box4{*/
+/*background-image: linear-gradient(red, skyblue);*/
+/*height:200px;*/
+/*}*/
+/*.box5{*/
+/*background-image: linear-gradient(violet, skyblue);*/
+/*height:200px;*/
+/*}*/
+/*.box6{*/
+/*background-image: linear-gradient(tomato, skyblue);*/
+/*height:200px;*/
+/*}*/
+.box{
+    background-image:linear-gradient(dodgerblue, skyblue);
+    border-radius:5%;
+    padding-left: 10px;
+    width:145px;
+    text-align: center;
+    padding-left: 10px;
 }
-.box4{
-background-image: linear-gradient(red, skyblue);
-height:200px;
+.maintext{
+    text-align:center;
+    opacity:0.5;
+    padding-top:60px;
+    color: black;
+  color:linear-gradient(90deg, white, skyblue);
 }
-.box5{
-background-image: linear-gradient(violet, skyblue);
-height:200px;
-}
-.box6{
-background-image: linear-gradient(tomato, skyblue);
-height:200px;
-}
+
