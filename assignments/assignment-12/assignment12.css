@@ -1,0 +1,20 @@
+.box{
+    /*background-image:linear-gradient(dodgerblue, skyblue);*/
+    background-color:gray;
+    border-radius:10px;
+    text-align: center;
+    height: 150px;
+    padding-top:50px;
+}
+
+.visitebox{
+    background-color: dodgerblue;
+    text-align:center;
+    margin-bottom: 10px;
+    width:145px;   
+    border-radius:5px;
+    margin-top:10px;
+}
+.row{
+    padding-left:20px;
+}
