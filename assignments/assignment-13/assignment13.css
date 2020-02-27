@@ -1,0 +1,28 @@
+.underline{
+    border-bottom:2px solid dodgerblue;
+}
+.box{
+    /*height:100px;*/
+    background-image:linear-gradient(90deg, white, skyblue);
+    box-sizing:border-box;
+    border-radius:20px;
+}
+.dates{
+    padding-top:10px;
+    text-align: center;
+    box-sizing:border-box;
+}
+.boxtext{
+    text-align: center;
+    padding:20px;
+    box-sizing:border-box;
+}
+.sidebox{
+    border-radius:20px;
+    /*background-color:skyblue;*/
+    padding:20px;
+    /*margin-bottom: 20px;*/
+}
+.content{
+    opacity: 0.5;
+}
