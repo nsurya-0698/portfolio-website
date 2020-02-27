@@ -26,3 +26,10 @@
 .content{
     opacity: 0.5;
 }
+body{
+    width:100vw;
+      background-image:url("../../6e5242aab82fdb8822649c916a2ed714.gif");
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-position: center;
+}
