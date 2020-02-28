@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+.extrasmall{
+    background-color:orange;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+    border:2px solid black;
+    margin-bottom:10px;
+    font-size:14px;
+}
+.small{
+    background-color:#00c8ff;
+    text-align: center;
+    padding:20px 0px 20px 0px;
+    border:2px dashed black;
+    margin-bottom:20px;
+    font-size:16px;
+}
+.medium{
+    background-color:#246caf;
+    text-align: center;
+    padding:30px 0px 30px 0px;
+    border:2px dotted black;
+    margin-bottom:30px;
+    font-size:16px;
+}
+.large{
+    background-color:#7985ff;
+    text-align: center;
+    padding:40px 0px 40px 0px;
+    border:2px solid black;
+    margin-bottom:40px;
+    font-size:18px;
+}
+.Extralarge{
+     background-color:white;
+    text-align: center;
+    padding:50px 0px 50px 0px;
+    border:2px solid white;
+    margin-bottom:40px;
+    font-size:20px;
+}
+
