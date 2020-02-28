@@ -1,1 +1,7 @@
-h1
+.head{
+    padding-top:50px;
+}
+.span{
+    padding:50px;
+    background-color: blue;
+}
