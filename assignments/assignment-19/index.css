@@ -1,8 +1,14 @@
+.container{
+    background-image:linear-gradient(#cac531, #f3f9a7);
+}
 span{
     padding:7px;
 }
 .head{
     padding-top:2px;
+}
+.bgforhead{
+     background:linear-gradient(120deg, white, green);
 }
 .content{
     text-align:center;
@@ -14,6 +20,10 @@ span{
 }
 .card{
     margin-left:30px;
+    background:linear-gradient(120deg, #000000, #0f9b0f);
+    color:white;
+    /*background-image:url("../../abb883535b4cb6d022792102979af252.gif");*/
+    background-position: center;
 }
 .icon{
     /*padding-left:50px;*/
