@@ -3,22 +3,11 @@
     font-weight:500;
     margin-bottom: 20px;
 }
-
-/*.container{*/
-/*    padding:10px;*/
-/*}*/
-/*.row{*/
-/*    padding:0px;*/
-/*}*/
 .fristblock{
     text-align: center;
-    /*border:2px solid gray;*/
     margin-right:20px;
-    /*margin-left:10px;*/
-    /*margin-left:15px;*/
     padding-top:10px;
     margin-bottom:20px;
-    
 }
 .row1subbox1{
  text-align: center;
@@ -32,7 +21,7 @@
 .footer{
     padding:5px 15px 5px  15px;
    margin-top:30px; 
-   margin-left:45%;
+   margin-left:40vw;
 }
 p{
     font-size:10px;
