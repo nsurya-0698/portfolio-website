@@ -1,1 +1,81 @@
+.gmaillogo{
+    width:25px;
+    height:18px;
+}
+.header{
+    margin-top:10px;
+}
+.name{
+    font-size:20px; 
+    display:inline-block; 
+    vertical-align:top;
+}
+.smallheader{
+    margin-bottom: 10px;
+    border-bottom: 0.1px solid black;
+    
+}
+.smallheader2{
+    /*margin-top: -10px;*/
+    
+}
 
+
+/**{*/
+/*    border:2px solid red;*/
+/*}*/
+
+
+
+.section1{
+    text-align: center;
+    margin-bottom: 10px
+    margin-top:50px;
+    
+}
+.section1head{
+    padding-top:50px;
+    /*border:2px solid red;*/
+    /*text-align: left;*/
+}
+.section1headmedium{
+    text-align: left;
+    padding-top: 100px;
+    padding-left:50px;
+}
+.forsmalltext{
+font-size: 10px;
+}
+
+
+
+
+
+.section2{
+    padding-top:20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.head{
+ text-align: center;   
+}
+
+
+
+
+
+.section3{
+    padding-left:30px;
+    text-align: center;
+}
+
+
+
+
+.footersection1{
+    text-align: center;
+    margin:10px;
+}
+.footersection2{
+    margin-top:10px;
+}
