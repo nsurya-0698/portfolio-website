@@ -18,7 +18,9 @@
 .alginment{
     text-align:right;
 }
-
+.alginmentforsi{
+    text-align:center;
+}
 
 /**{*/
 /*    border:2px solid red;*/
