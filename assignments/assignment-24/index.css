@@ -39,6 +39,7 @@ li{
 .box1{
     text-align:center;
     /*border:2px solid red;*/
+    margin-bottom: 20px;
 }
 .card{
     /*width:200px;*/
@@ -100,4 +101,8 @@ li{
     color:black;
     padding:10px;
     font-weight: bold;
+}
+.footbuttons{
+    padding:5px;
+    margin:2px;
 }
