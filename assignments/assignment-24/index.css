@@ -1,23 +1,43 @@
-/**{*/
-/*    border:1px solid green;*/
-/*}*/
+ /**{*/
+    
+ /*   border:1px solid green;*/
+ /*}*/
+.topicsSec
+{
+    border-bottom:1px solid dodgerblue;
+}
+.navbar1{
+    display:block;
+    background-color: black;
+}
+.cat{
+    -webkit-filter:invert(100%);
+}
+.dropdown1{
+    display: inline;
+    padding: 0px;
+    opacity: 2;
+}
+.Explore{
+    text-align:center;
+    padding-top:30px;
+}
+.headerforlg{
+    padding-top:30px;
+}
 .navbar{
     background-color: black;
     
-}
-.navbarburger{
-    text-align:right;
 }
 .header2{
     /*justify-content:center;*/
     margin-top:20px;
 }
 
-li{
+.li1{
      list-style-type:none;
      /*margin-top: 30px;*/
    display:inline-block; 
-   padding-right:30px;
    /*margin-left:-10px;*/
    opacity:0.5;
    /*font-size: 15px;*/
@@ -27,8 +47,8 @@ li{
 }
 .topic{
    opacity:2;
-   padding-bottom:20px;
-   border-bottom:1px solid dodgerblue;
+   
+   /*border-bottom:1px solid dodgerblue;*/
 }
 
 .mainhead{
@@ -108,4 +128,10 @@ li{
 .footbuttons{
     padding:5px;
     margin:2px;
+}
+
+.bottombutton{
+    color: dodgerblue;
+    border:0.5px solid black;
+    margin: 30px;
 }

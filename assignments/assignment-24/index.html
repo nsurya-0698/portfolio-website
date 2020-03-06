@@ -12,60 +12,71 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-6 navbar">
-        <div class="col-2">
-          <img src="assets/github-logo.svg" alt="Image not loaded">
-        </div>
-      </div>
-      <div class="pos-f-t navbarburger col-6">
+  <div class="container-fluid">
+         <nav class="row navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img class="cat" src="assets/github-logo.svg" alt="image not loded"</a>
+      <div class="collapse navbar-collapse ml-0" id="navbarTogglerDemo03">
 
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
-            <h5 class="text-white h4">Collapsed content</h5>
-            <span class="text-muted">Toggleable via the navbar brand.</span>
-          </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-        </nav </div>
-      </div>
-    </div>
-
-    <div class="row header2">
-
-      <headerforsmall>
-        <div class="col-12 d-md-none" style="text-algin:center; opacity:0.5;">
-          Explore
-        </div>
-        <ul class="d-block d-md-none head">
-          <li class="topic">Topic</li>
-          <li>Trending</li>
-          <li>Collection</li>
-          <li>Events</li>
+        <ul class="navbar-nav mg-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link dropdown1" href="#">Why Github<span class="sr-only">(current)<a class="nav-link dropdown-toggle dropdown1" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a></span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link dropdown1" href="#">Enterprise</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link dropdown1" href="#">Explore<span class="sr-only">(current)<a class="nav-link dropdown-toggle dropdown1" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a></a>
+          </li>
+          <li style="color:white; padding-right:15px;">Marketprice</li>
+          <li class="mr-3" style="color:white">Pricing</li>
         </ul>
-      </headerforsmall>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 bg-dark p-0" type="search" placeholder="Search Github" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0 mr-3" type="submit">Sign in</button>
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Sign up</button>
+        </form>
+      </div>
 
-      <headerforlg>
-        <div class="d-none  d-md-block" style="display:inline-block; opacity:0.5; text-algin:center;">
-          Explore
-        </div>
-        <ul class="d-none d-md-block">
-          <li class="topic">Topic</li>
-          <li>Trending</li>
-          <li>Collection</li>
-          <li>Events</li>
-        </ul>
-      </headerforlg>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    </nav>
+    <div class="col-12 d-md-none text-center">
+      <p class="Explore">Explore</p>
+      <ul class="d-block d-md-none head p-0">
+        <li class="topic li1 topicsSec pb-2 mr-2">
+          Topic
+        </li>
+        <li class="li1 mr-2">Trending</li>
+        <li class="li1 mr-2">Collection</li>
+        <li class="li1 mr-2">Events</li>
+      </ul>
     </div>
+    <!--</headerforsmall>-->
+
+    <!--<headerforlg>-->
+    <ul class="d-none d-md-block headerforlg">
+      <li class="topic li1 mr-2">Explore</li>
+      <li class="topic li1 mr-2 topicsSec pb-2">
+        Topics
+      </li>
+      <li class="topic li1 mr-2">Trending</li>
+      <li class="topic li1 mr-2">Collection</li>
+      <li class="topic li1 mr-2">Events</li>
+    </ul>
+    <!--</headerforlg>-->
+
+
+
+
+
 
     <main>
       <section1>
         <div class="row ">
-          <div class="col-12 mainhead">
+          <div class="col-12 mainhead shadow">
             <h3>Topics</h3>
             <p>Browse popular topics on Github</p>
           </div>
@@ -122,8 +133,8 @@
 
 
             <div class="col-12 col-xl-9 d-xl-block">
-              
-              
+
+
               <div class="row">
                 <div class="col-3 d-md-none">
                   <div class="hashforsmall">
@@ -140,10 +151,10 @@
                   <div class="row">
                     <h6>3D</h6>
                   </div>
-                  <div class="row passage">
+                  <div class="row">
                     <p>3D modeling is the process of virtually developing the surface structure of the 3d pictures.<br>surya is great.</p>
                   </div>
-                  <div class="row d-block d-md-none passage">
+                  <div class="row d-block d-md-none ">
                     <span class="badge badge-secondary star"><img src="assets/star.svg" alt="Image not loadede" style="width:15px; height:15px;">star</span>
 
                   </div>
@@ -175,10 +186,10 @@
                   <div class="row passage">
                     <h6>Ajax</h6>
                   </div>
-                  <div class="row passage">
+                  <div class="row">
                     <p>Ajax modeling is the process of virtually developing the surface structure of the 3d pictures.<br>surya is great.</p>
                   </div>
-                  <div class="row d-block d-md-none passage">
+                  <div class="row d-block d-md-none">
                     <span class="badge badge-secondary star"><img src="assets/star.svg" alt="Image not loadede" style="width:15px; height:15px;">star</span>
 
                   </div>
@@ -206,18 +217,18 @@
                   </div>
                 </div>
                 <div class="col-9">
-                  <div class="row passage">
+                  <div class="row">
                     <h6>Algorithm</h6>
                   </div>
-                  <div class="row passage">
+                  <div class="row">
                     <p>Algorithm modeling is the process of virtually developing the surface structure of the 3d pictures.<br>surya is great.</p>
                   </div>
-                  <div class="row d-block d-md-none passage">
+                  <div class="row d-block d-md-none ">
                     <span class="badge badge-secondary star"><img src="assets/star.svg" alt="Image not loadede" style="width:15px; height:15px;">star</span>
 
                   </div>
                 </div>
-                <div class="d-none col-md-1 d-md-block passage">
+                <div class="d-none col-md-1 d-md-block">
                   <span class="badge badge-light star"><img src="assets/star.svg" alt="Image not loadede" style="width:15px; height:15px;">star</span>
                 </div>
                 <hr>
@@ -608,29 +619,30 @@
                 </div>
                 <hr>
 
-           </div>
               </div>
-              
-<div class="col-6 col-md-3 col-xl-3 d-xl-block">
-                <h3>PopularTopics</h3>
-            <span class="badge badge-primary footbuttons">React</span>
-            <span class="badge badge-primary footbuttons">Javascript</span>
-            <span class="badge badge-primary footbuttons">CSS</span>
-            <span class="badge badge-primary footbuttons">Python</span>
-            <span class="badge badge-primary footbuttons">React</span>
-            <span class="badge badge-primary footbuttons">HTML</span>
-            <span class="badge badge-primary footbuttons">e-commerse</span>
-            <span class="badge badge-primary footbuttons">python-3</span>
-            <span class="badge badge-primary footbuttons">e-commerse platform</span>
-            <span class="badge badge-primary footbuttons">nci-itcr</span>
-            <span class="badge badge-primary footbuttons">solidus-extensoin</span>
-          </div>
+            </div>
+            <button type="button" class="btn btn-light btn-lg btn-block bottombutton">Learn more.....</button></div>
+
+            <div class="col-6 col-md-3 col-xl-3 d-xl-block">
+              <h3>PopularTopics</h3>
+              <span class="badge badge-primary footbuttons">React</span>
+              <span class="badge badge-primary footbuttons">Javascript</span>
+              <span class="badge badge-primary footbuttons">CSS</span>
+              <span class="badge badge-primary footbuttons">Python</span>
+              <span class="badge badge-primary footbuttons">React</span>
+              <span class="badge badge-primary footbuttons">HTML</span>
+              <span class="badge badge-primary footbuttons">e-commerse</span>
+              <span class="badge badge-primary footbuttons">python-3</span>
+              <span class="badge badge-primary footbuttons">e-commerse platform</span>
+              <span class="badge badge-primary footbuttons">nci-itcr</span>
+              <span class="badge badge-primary footbuttons">solidus-extensoin</span>
+            </div>
         </section3>
         <!--</main>-->
-       
+          
 
         </div>
-        </div>
+        
 </body>
 
 </html>
