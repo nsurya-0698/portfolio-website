@@ -1,0 +1,94 @@
+.navbar{
+    margin: 10px;
+}
+
+.logo{
+    width:25px;
+    height:25px;
+    opacity: 0.9;
+    margin-right:10px;
+}
+.Websitename{
+    font-weight: 900;
+    font-size: medium;
+}
+/**{*/
+/*    border:1px solid green;*/
+/*}*/
+.navbarlinks{
+    padding:0px;
+    display:inline-block;
+    text-align:right;
+}
+
+
+
+.header{
+    background-image: url(assets/background.jpg);
+    /*background-position: top;*/
+    height: 700px;
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.profilepic{
+    width:125px;
+    height: 125px;
+    /*margin:auto;*/
+    text-align: center;
+}
+.profilethumb{
+ width:125px;
+    height: 125px;
+    margin-top: 200px;
+    border-radius:50px;
+}
+.nameofpro{
+    color:white;
+    text-align:center;
+    padding-bottom: 0px;
+    
+}
+.profiletext{
+    text-align: center;
+    color:white;
+}
+.probutton{
+    text-align: center;
+}
+.section1{
+    margin-top:20px;
+}
+.subtitele{
+    opacity:0.5;
+}
+.section1{
+    margin:20px;
+}
+.section2head{
+    text-align: center;
+}
+.section2buttons{
+    
+    
+    margin:auto; 
+}
+
+
+
+.section3{
+    margin-top:20px;
+}
+
+.section3image1{
+    background-size: cover;
+}
+.section3image1{
+    
+}
+.socialicons{
+    text-align: right;
+    padding-right: 10px;
+}
