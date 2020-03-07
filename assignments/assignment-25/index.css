@@ -111,3 +111,11 @@
     text-align: right;
     padding-right: 10px;
 }
+
+
+
+.footer{
+    background-color: #f5f5f5;
+    padding:10px 0px 10px 0px;
+    border-radius: 10px 0px 10px 0px;
+}
