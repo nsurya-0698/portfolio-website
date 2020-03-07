@@ -22,7 +22,11 @@
 }
 
 
-
+.wrap{
+    background-color:#00000050;
+    width:100%;
+     padding-top:200px;
+}
 .header{
     background-image: url(assets/background.jpg);
     /*background-position: top;*/
@@ -32,24 +36,29 @@
     background-size: cover;
     text-align: center;
     margin-bottom: 10px;
+   
 }
 .profilepic{
     width:125px;
     height: 125px;
-    /*margin:auto;*/
+    
     text-align: center;
+    margin-top: 100px;
 }
 .profilethumb{
  width:125px;
     height: 125px;
-    margin-top: 200px;
+    
     border-radius:50px;
+    text-align:center;
+    
 }
-.nameofpro{
+.titlesofpro{
     color:white;
     text-align:center;
     padding-bottom: 0px;
     
+    margin:auto;
 }
 .profiletext{
     text-align: center;
@@ -62,10 +71,20 @@
     margin-top:20px;
 }
 .subtitele{
-    opacity:0.5;
+    opacity:0.3;
 }
 .section1{
     margin:20px;
+}
+.section1passage{
+    font-size:15px;
+}
+
+
+
+
+.section2{
+    background-color: #f5f5f5
 }
 .section2head{
     text-align: center;
