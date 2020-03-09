@@ -18,9 +18,9 @@
     font-size: medium;
     display: inline-block;
 }
-*{
-    border:1px solid green;
-}
+/**{*/
+/*    border:1px solid green;*/
+/*}*/
 .navbarlinks{
     padding:0px;
     display:inline-block;
