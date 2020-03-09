@@ -1,6 +1,12 @@
 .navbar{
     margin: 10px;
 }
+.main{
+        background-color: #f5f5f5;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
+    }
 
 .logo{
     width:25px;
@@ -10,10 +16,11 @@
 .Websitename{
     font-weight: 900;
     font-size: medium;
+    display: inline-block;
 }
-/**{*/
-/*    border:1px solid green;*/
-/*}*/
+*{
+    border:1px solid green;
+}
 .navbarlinks{
     padding:0px;
     display:inline-block;
