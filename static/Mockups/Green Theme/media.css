@@ -1,0 +1,21 @@
+@import url(another.css);
+@media(width:360){
+    body{
+        color:red;
+    }
+}
+@media (width: 767px){
+    body{
+       background-color:red;
+    }
+}
+@media (max-width: 991px){
+    body{
+       background-color:blue;
+    }
+}
+@media (min-width: 992px){
+    body{
+       background-color:orange;
+    }
+}
