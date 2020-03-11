@@ -1,0 +1,12 @@
+*{
+    padding:0px;
+    margin:0px;
+    /*border:1px solid green;*/
+  /*box-sizing: border-box;*/
+}
+@media (min-width:768px){
+    .para1, .para2{
+        display:inline-block;
+        width:49%;
+    }
+}
