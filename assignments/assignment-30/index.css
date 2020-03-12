@@ -6,11 +6,11 @@ body {
 }
 @media (max-width:575px){
   .line{
-    padding:10px 0px 10px 0px;
-    text-align: center;
+    padding:10px 0px 10px 10px;
+    
     margin-bottom: 10px;
     background-color: orange;
-    border:2px dashed black;
+    border:2px solid black;
   }
 }
 @media (min-width:576px){
