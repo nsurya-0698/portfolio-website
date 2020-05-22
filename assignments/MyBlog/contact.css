@@ -1,0 +1,32 @@
+.index{
+    color:dodgerblue;
+}
+.heading{
+    padding-left:2px;
+    font-weight:normal;
+}
+
+.subheading{
+    border-bottom:2px solid dodgerblue;
+    font-weight:normal;
+    
+}
+h3{
+    font-weight:bold;
+}
+#follow{
+    color:skyblue;
+    padding-left:40px;
+    font-size:25px;
+}
+.image{
+    padding-left:10px;
+    padding-right:10px;
+}
+.backg{
+    background: linear-gradient(to left, black,skyblue);
+}
+.block{
+    border:2px solid blue;
+    box-sizing: border-box;
+}
